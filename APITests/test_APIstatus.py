@@ -1,7 +1,7 @@
 import pytest, json, requests
 from utils import postData, getData
 
-baseUrl = "http://192.168.1.18:5000/api"
+baseUrl = "http://192.168.29.129:5000/api"
 
 
 def test_home_status():
