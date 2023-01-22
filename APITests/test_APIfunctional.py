@@ -1,7 +1,7 @@
 import pytest, time
 from utils import postData, getData
 
-baseUrl = "http://192.168.112.231:5000/api"
+baseUrl = "http://192.168.112.143:5000/api"
 
 testdata = [
     (["admin@admin", "1234"], 200, 422),
